@@ -7,6 +7,7 @@
  *@n: the amount of characters to be copied
  *Return: the concatenated string
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i, j;
@@ -37,6 +38,7 @@ char *_strncpy(char *dest, char *src, int n)
  *@n: the amount of bytes to be maximally used
  *Return: the concatenated string
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;

@@ -6,6 +6,7 @@
  *          constant function prototype.
  * Return: Always 0
  */
+
 char **get_environ(info_t *info)
 {
 	if (!info->environ || info->env_changed)
@@ -24,6 +25,7 @@ char **get_environ(info_t *info)
  *  Return: 1 on delete, 0 otherwise
  * @var: the string env var property
  */
+
 int _unsetenv(info_t *info, char *var)
 {
 	list_t *node = info->env;

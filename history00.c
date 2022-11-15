@@ -30,6 +30,7 @@ char *get_history_file(info_t *info)
  *
  * Return: 1 on success, else -1
  */
+
 int write_history(info_t *info)
 {
 	ssize_t fd;

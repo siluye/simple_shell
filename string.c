@@ -6,6 +6,7 @@
  *
  * Return: integer length of string
  */
+
 int _strlen(char *s)
 {
 	int i = 0;
@@ -25,6 +26,7 @@ int _strlen(char *s)
  *
  * Return: negative if s1 < s2, positive if s1 > s2, zero if s1 == s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2)

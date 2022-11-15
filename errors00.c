@@ -6,6 +6,7 @@
  *
  * Return: Nothing
  */
+
 void _eputs(char *str)
 {
 	int i = 0;
@@ -26,6 +27,7 @@ void _eputs(char *str)
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _eputchar(char c)
 {
 	static int i;
